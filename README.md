@@ -140,6 +140,13 @@ The next time the application runs, it checks if the index and the database exis
   
 After the application loads you can click on the Assistant option on the Sidebar. The assistant UI loads and you can start asking questions and leaving feedback.
 
+Questions you can ask could be:
+
+* How can I pay?
+* Can I return a product?
+
+and many other.
+
 ![image info](./images/app_assistant.png)
 
 ### Access Grafana
