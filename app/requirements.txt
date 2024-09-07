@@ -1,0 +1,9 @@
+elasticsearch==8.15.0
+tqdm==4.66.5
+sentence_transformers==3.0.1
+openai==1.43.0
+streamlit==1.38.0
+python-dotenv==1.0.1
+psycopg2-binary
+seaborn==0.13.2
+streamlit_chat==0.1.1

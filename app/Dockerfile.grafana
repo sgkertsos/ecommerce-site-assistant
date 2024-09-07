@@ -1,0 +1,12 @@
+# Grafana
+FROM grafana/grafana:latest
+
+ENV GF_PATHS_PROVISIONING /etc/grafana/provisioning
+
+COPY ./grafana/dashboards /var/lib/grafana/dashboards
+
+COPY ./grafana/provisioning /etc/grafana/provisioning/
+
+EXPOSE 3000
+
+CMD [\"/run.sh\"]

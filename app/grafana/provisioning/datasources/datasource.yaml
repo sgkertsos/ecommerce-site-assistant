@@ -1,0 +1,26 @@
+apiVersion: 1
+
+datasources:
+  - name: grafana-postgresql-datasource
+    type: grafana-postgresql-datasource
+    url: postgres
+    access: proxy
+    isDefault: true
+    uid: ecommerce_assistant
+    orgId: 1
+    typeName: PostgreSQL
+    typeLogoUrl: public/app/plugins/datasource/grafana-postgresql-datasource/img/postgresql_logo.svg
+    user: $POSTGRES_USER
+    basicAuth: false
+
+    jsonData:
+      connMaxLifetime: 14400
+      database: ecommerce_assistant
+      maxIdleConns: 100
+      maxIdleConnsAuto: true
+      maxOpenConns: 100
+      postgresVersion: 1500
+      sslmode: disable
+
+    secureJsonData:
+      password: $POSTGRES_PASSWORD
