@@ -159,7 +159,7 @@ The panels you can see on the Grafana dashboard are:
 * Feedback: In this panel you can see user Feedback. You can see the total number of thumbs up and thumbs down.
 * Total tokens: In this panel you can see the total normal and evaluation tokens used.
 * Total cost: In this panel you can see the total cost for all the dialogs and the evaluations made.
-* Relevance spread: This panel shows as how many Relevant, Non relevant and partly relevant answer we have.
+* Relevance spread: This panel shows us how many Relevant, Non relevant and Partly relevant answers we have.
 
 ### Retrieval evaluation
 
