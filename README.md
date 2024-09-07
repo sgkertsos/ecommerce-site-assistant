@@ -96,7 +96,11 @@ cd app
 cp .env.template .env
 rm .env.template
 ```
-Open the .venv file, go to the Open AI section and fill in you Open AI API key between the quotes for the OPENAI_API_KEY environment variable.
+Open the .env file by typing: 
+```console
+nano .env
+```
+Go to the Open AI section and fill in you Open AI API key between the quotes for the OPENAI_API_KEY environment variable. Save the file.
 
 To create an Open AI API key you can use the instructions in the following link:
 
