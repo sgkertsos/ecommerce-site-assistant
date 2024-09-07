@@ -167,6 +167,8 @@ To evaluate Retrieval a ground truth dataset file was generated:
 
 * ground-truth-data.csv
 
+5 questions are generated for each record in the **data.csv** file.
+
 You can generate the ground truth file again if you want by clicking on the **Click to generate ground truth data**.
 
 ![image info](./images/ground_truth_generation.png)
@@ -195,6 +197,8 @@ To perform offline RAG evaluation two files were generated:
 
 * gpt-35-turbo-results.csv
 * gpt-4o-mini-results.csv
+
+For each question in the Ground Truth dataset an answer is generated.
 
 You can generate the two files again if you want by clicking on the **Click to generate files for offline evaluation**.
 
