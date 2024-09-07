@@ -107,10 +107,9 @@ To create an Open AI API key you can use the instructions in the following link:
 https://platform.openai.com/docs/quickstart
 
 #### Start the application
-To start the application type the following commands:
+Assuming that you are already in the app folder, start the application by typing the following command:
 
 ```console
-cd app
 docker compose up
 ```
 Wait for the application to load. 
