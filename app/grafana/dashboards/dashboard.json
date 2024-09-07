@@ -575,7 +575,7 @@
           "editorMode": "code",
           "format": "table",
           "rawQuery": true,
-          "rawSql": "select sum(case when relevance = 'Relevant' then 1 else 0 end) as relevant,\r\n        sum(case when relevance = 'Not relevant' then 1 else 0 end) as non_relevant,\r\n        sum(case when relevance = 'Partly relevant' then 1 else 0 end) as partly_relevant\r\n    from dialogs ",
+          "rawSql": "select sum(case when relevance = 'Relevant' then 1 else 0 end) as relevant,\r\n        sum(case when relevance = 'Non relevant' then 1 else 0 end) as non_relevant,\r\n        sum(case when relevance = 'Partly relevant' then 1 else 0 end) as partly_relevant\r\n    from dialogs ",
           "refId": "A",
           "sql": {
             "columns": [
