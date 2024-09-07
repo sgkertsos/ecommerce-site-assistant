@@ -86,7 +86,7 @@ https://docs.docker.com/compose/install/
 Open a terminal, navigate to a folder where you want the repository files to be stored and then type:  
 
 ```console
-git clone https://github.com/sgkertsos/ecommerce-assistant.git
+git clone https://github.com/sgkertsos/ecommerce-site-assistant.git
 ```
 #### Update your Open AI API key
 Open a terminal and type:
