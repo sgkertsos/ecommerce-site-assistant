@@ -1,5 +1,4 @@
 import streamlit as st
-import webbrowser as web
 from eval import calculate_similarities
 import seaborn as sns
 import matplotlib.pyplot as plt
