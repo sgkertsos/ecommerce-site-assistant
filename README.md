@@ -92,8 +92,9 @@ git clone https://github.com/sgkertsos/ecommerce-site-assistant.git
 Open a terminal and type:
 ```console
 cd ecommerce-site-assistant
-cp .venv.template .venv
-rm .venv.template
+cd app
+cp .vnv.template .env
+rm .env.template
 ```
 Open the .venv file, go to the Open AI section and fill in you Open AI API key between the quotes for the OPENAI_API_KEY environment variable.
 
