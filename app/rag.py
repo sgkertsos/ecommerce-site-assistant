@@ -153,7 +153,7 @@ def get_relevance(question, answer):
     prompt_template = """
     You evaluate our RAG system. One of your tasks is to analyze if there is a relevance
     between the given question and the generated answer. You have to classify the relevance
-    as "Relevant", "Not relevant" or "Partly relevant"
+    as "Relevant", "Non relevant" or "Partly relevant"
 
     Data for evaluation:
 
@@ -163,7 +163,7 @@ def get_relevance(question, answer):
     Provide your evaluation in parsable JSON without using code blocks:
 
     {{
-      "Relevance": "Relevant" | "Non relevant" | "Partly Relevant"
+      "Relevance": "Relevant" | "Non relevant" | "Partly relevant"
     }}
     """.strip()
 
