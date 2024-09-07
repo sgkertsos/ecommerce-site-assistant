@@ -72,7 +72,8 @@ The following folders/files are included in the application:
 * **rag.py**. Interaction with the LLM is done by using functions from this file.
 * **utils.py**. Various functions, eg function for the the conversion of the JSON file to CSV format.
 * **requirements.txt**. All python libraries used by the application are stored here.
-* **.venv.template**. The file where all environment variables are stored.
+* **.env.template**. The file where all environment variables are stored.
+* **README.md**. This file.
   
 ### Run the application
 
