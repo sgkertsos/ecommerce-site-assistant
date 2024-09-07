@@ -93,7 +93,7 @@ Open a terminal and type:
 ```console
 cd ecommerce-site-assistant
 cd app
-cp .vnv.template .env
+cp .env.template .env
 rm .env.template
 ```
 Open the .venv file, go to the Open AI section and fill in you Open AI API key between the quotes for the OPENAI_API_KEY environment variable.
