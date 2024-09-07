@@ -91,7 +91,7 @@ git clone https://github.com/sgkertsos/ecommerce-site-assistant.git
 #### Update your Open AI API key
 Open a terminal and type:
 ```console
-cd ecommerce-assistant
+cd ecommerce-site-assistant
 cp .venv.template .venv
 rm .venv.template
 ```
